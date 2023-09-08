@@ -1,3 +1,19 @@
 # ninja log v5
 392	612	1694180188829232900	LaboratorioProgrammazione_SianiMarco	1edc7555bbc34dd4
 0	391	1694180188613235428	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o	ba212b2bf6674200
+15	438	1694189456444427048	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Note.cpp.o	7c7758ef7bf068bd
+438	555	1694189456552419502	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o	4e323738946b04b6
+556	660	1694189456660411956	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o	ce2d64a2821ccfbd
+16	850	1694189456852398540	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Notebook.cpp.o	c7248b6d3ae3bca1
+5	864	1694189456872397143	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o	ba212b2bf6674200
+851	1469	1694189457472355225	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o	95f43958be8e2f53
+661	1619	1694189457628344327	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/SetCollezioni.cpp.o	660bfbd27135f2a4
+1619	1828	1694189457832330076	LaboratorioProgrammazione_SianiMarco	49707d1a5930ad16
+1	869	1694189609497864656	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o	ba212b2bf6674200
+869	990	1694189609617856470	LaboratorioProgrammazione_SianiMarco	49707d1a5930ad16
+1	580	1694189694764079017	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o	ba212b2bf6674200
+580	811	1694189694992063628	LaboratorioProgrammazione_SianiMarco	49707d1a5930ad16
+1	602	1694189844357422304	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o	ba212b2bf6674200
+603	847	1694189844601351574	LaboratorioProgrammazione_SianiMarco	49707d1a5930ad16
+4	640	1694189880047309057	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o	ba212b2bf6674200
+640	903	1694189880303238241	LaboratorioProgrammazione_SianiMarco	49707d1a5930ad16
