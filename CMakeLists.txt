@@ -9,4 +9,6 @@ add_executable(LaboratorioProgrammazione_SianiMarco main.cpp
         Notebook.h
         Notebook.cpp
         Observer.h
-        Observer.cpp)
+        Observer.cpp
+        Subject.h
+        Subject.cpp)

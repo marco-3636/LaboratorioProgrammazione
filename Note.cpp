@@ -32,7 +32,7 @@ void Note::setLocked(bool locked) {
 }
 
 //metodi inerenti alla clase
-std::string Notes::PrintLock() const {
+std::string Note::PrintLock() const {
     if(isLocked()){
         return "  -  (Lock)";
     }

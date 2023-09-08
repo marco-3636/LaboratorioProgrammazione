@@ -73,6 +73,12 @@ build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o: CXX_CO
   OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
   OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
 
+build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Subject.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
+  DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
+  OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LaboratorioProgrammazione_SianiMarco
@@ -81,7 +87,7 @@ build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o: CXX_CO
 #############################################
 # Link the executable LaboratorioProgrammazione_SianiMarco
 
-build LaboratorioProgrammazione_SianiMarco: CXX_EXECUTABLE_LINKER__LaboratorioProgrammazione_SianiMarco_Debug CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Note.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Notebook.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o
+build LaboratorioProgrammazione_SianiMarco: CXX_EXECUTABLE_LINKER__LaboratorioProgrammazione_SianiMarco_Debug CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Note.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Notebook.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
   POST_BUILD = :
