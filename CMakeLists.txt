@@ -11,4 +11,8 @@ add_executable(LaboratorioProgrammazione_SianiMarco main.cpp
         Observer.h
         Observer.cpp
         Subject.h
-        Subject.cpp)
+        Subject.cpp
+        SetCollezioni.h
+        SetCollezioni.cpp
+        Displayer.h
+        Displayer.cpp)
