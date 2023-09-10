@@ -35,9 +35,9 @@ void Displayer::update() {
 }
 
 void Displayer::ShowTotal() const {
-    std::cout << "In totale ci sono " << TotalNotes << " di cui " << TotalLockNotes << " bloccate." << std::endl;
+    std::cout << "In totale ci sono " << TotalNotes << " note di cui " << TotalLockNotes << " sono bloccate." << std::endl;
 }
 
 void Displayer::ShowCol() const {
-    std::cout << "In questa collezione ci sono " << CollectionNotes << " di cui " << CollectionLockNotes << " bloccate." << std::endl;
+    std::cout << "In questa collezione ci sono " << CollectionNotes << " note di cui " << CollectionLockNotes << " sono bloccate." << std::endl;
 }
