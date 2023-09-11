@@ -15,4 +15,7 @@ add_executable(LaboratorioProgrammazione_SianiMarco main.cpp
         SetCollezioni.h
         SetCollezioni.cpp
         Displayer.h
-        Displayer.cpp)
+        Displayer.cpp
+        Test/NoteTest.cpp
+        Test/NotebookTest.cpp
+        Test/AllTest.cpp)
