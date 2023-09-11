@@ -95,16 +95,16 @@ bool SetCollezioni::ModifyNote(int i, int choice, const std::string& t) {
         else if(choice == 2){
             nota.setText(t);
         }
-        else{
+        /*else{
             nota.setLocked(!nota.isLocked());
             TotLockNotesCount++;
             Col->setTotalLockedNotes(Col->getTotalLockedNotes()+1);
             ColLockNotesCount=Col->getTotalLockedNotes();
             notify();
-        }
+        }*/
         std::vector<Note> Vec = Col->getCollection();
-        auto itPos = Vec.begin()+i;
-        Vec.insert(itPos, nota);
+        //auto itPos = Vec.begin()+i;
+        Vec[i] = nota;
         Col->setCollection(Vec);
         return true;
     }
