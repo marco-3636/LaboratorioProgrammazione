@@ -1,0 +1,3 @@
+/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Test/TestGenerale/cmake-build-debug/CMakeFiles/runBasicTests.dir
+/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Test/TestGenerale/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Test/TestGenerale/cmake-build-debug/CMakeFiles/rebuild_cache.dir

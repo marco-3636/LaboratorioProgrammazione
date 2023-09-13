@@ -1,0 +1,16 @@
+# ninja log v5
+1	776	1694615176951248888	TestGenerale/CMakeFiles/runBasicTests.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Displayer.o	f0835848042f9e46
+486	1283	1694615177463236699	TestGenerale/CMakeFiles/runBasicTests.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/SetCollezioni.o	8adf442ff96f10db
+6	2453	1694614864494688456	TestGenerale/CMakeFiles/runBasicTests.dir/NotebookTest.o	d40c53e0b16cde65
+1	236	1694614753137340532	lib/libgtest.a	4e486283f377cb18
+8	2140	1694614864182695886	TestGenerale/CMakeFiles/runBasicTests.dir/NoteTest.o	de35db1e04b51981
+779	808	1694615176983248126	TestGenerale/CMakeFiles/runBasicTests.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Subject.o	7eaa9f153e92680e
+2	906	1694615177083245745	TestGenerale/CMakeFiles/runBasicTests.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/main.o	5d2e12a243581236
+0	186	1694615858467026997	build.ninja	17529314a08e8dcf
+393	486	1694615176663255744	TestGenerale/CMakeFiles/runBasicTests.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Observer.o	e82521fe9087cfd3
+4	2304	1694614293704289024	TestGenerale/CMakeFiles/runBasicTests.dir/AllTest.o	8fffc86ec03501f3
+1	6924	1694614298316179044	Gtest/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	80739dab3c4acf5c
+4	383	1694615176551258410	TestGenerale/CMakeFiles/runBasicTests.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Note.o	9f6914b383a73322
+3	2272	1694614293672289787	Gtest/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	36de75caf89c3494
+1	45	1694614862086745799	lib/libgtest_main.a	e51d7cdbfbf41af5
+0	185	1694615858467026997	build.ninja	17529314a08e8dcf
