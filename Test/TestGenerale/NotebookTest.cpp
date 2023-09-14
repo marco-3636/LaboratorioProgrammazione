@@ -2,8 +2,8 @@
 // Created by m36 on 11/09/23.
 //
 #include "gtest/gtest.h"
-#include "../../Notebook.h"
-#include "../../SetCollezioni.h"
+#include "../Notebook.h"
+#include "../SetCollezioni.h"
 
 
 TEST(Collezione, ConstructorsTest) {

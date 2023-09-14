@@ -3,7 +3,7 @@
 //
 #include <gtest/gtest.h>
 
-#include "../../Note.h"
+#include "../Note.h"
 
 
 TEST(Note, DefaultConstructor) {
