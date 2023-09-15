@@ -91,6 +91,24 @@ build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o: CXX_C
   OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
   OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
 
+build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/RunAllTest.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/RunAllTest.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
+  DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/RunAllTest.cpp.o.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
+  OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test
+
+build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NotebookTest.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/NotebookTest.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
+  DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NotebookTest.cpp.o.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
+  OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test
+
+build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NoteTest.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/NoteTest.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
+  DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NoteTest.cpp.o.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
+  OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LaboratorioProgrammazione_SianiMarco
@@ -99,7 +117,7 @@ build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o: CXX_C
 #############################################
 # Link the executable LaboratorioProgrammazione_SianiMarco
 
-build LaboratorioProgrammazione_SianiMarco: CXX_EXECUTABLE_LINKER__LaboratorioProgrammazione_SianiMarco_Debug CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Note.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Notebook.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/SetCollezioni.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o
+build LaboratorioProgrammazione_SianiMarco: CXX_EXECUTABLE_LINKER__LaboratorioProgrammazione_SianiMarco_Debug CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Note.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Notebook.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/SetCollezioni.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/RunAllTest.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NotebookTest.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NoteTest.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
   POST_BUILD = :

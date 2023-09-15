@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Test Select CMakeLists.txt
