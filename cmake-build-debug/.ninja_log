@@ -1,16 +1,15 @@
 # ninja log v5
 670	961	1694421407285476863	LaboratorioProgrammazione_SianiMarco	49707d1a5930ad16
-15	438	1694189456444427048	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Note.cpp.o	7c7758ef7bf068bd
-1	669	1694421407005483130	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o	ba212b2bf6674200
-556	660	1694189456660411956	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o	ce2d64a2821ccfbd
-20	198	1694611074088017948	build.ninja	628b86816214b4e7
-459	624	1694611045436797432	CMakeFiles/core.dir/Test/NotebookTest.cpp.o	408a4663c0a32ecc
+1	301	1694769095884626434	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Note.cpp.o	7c7758ef7bf068bd
+1	1062	1694769096636607446	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o	ba212b2bf6674200
+395	544	1694769096108620778	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o	ce2d64a2821ccfbd
+20	198	1694769152475197549	build.ninja	628b86816214b4e7
 1	1660	1694611046472768682	CMakeFiles/core.dir/Notebook.cpp.o	f801bf08c62d1d85
-438	555	1694189456552419502	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o	4e323738946b04b6
-3	455	1694611045268802097	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test/NotebookTest.cpp.o	a5faa1e8b101bb23
-16	850	1694189456852398540	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Notebook.cpp.o	c7248b6d3ae3bca1
-4	1579	1694419447857530665	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/SetCollezioni.cpp.o	660bfbd27135f2a4
-7	1039	1694351532393027432	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o	95f43958be8e2f53
-2	1318	1694611046132778109	CMakeFiles/core.dir/Note.cpp.o	7944f4231561be18
-4	64	1694611454726990575	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test/AllTest.cpp.o	30707a0ab4662b03
+309	395	1694769095964624414	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o	4e323738946b04b6
 3	72	1694611454730990485	CMakeFiles/core.dir/Observer.cpp.o	d328366fbd1199d8
+5	902	1694769096480611385	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Notebook.cpp.o	c7248b6d3ae3bca1
+544	1686	1694769097264591590	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/SetCollezioni.cpp.o	660bfbd27135f2a4
+903	1480	1694769097060596741	CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o	95f43958be8e2f53
+2	1318	1694611046132778109	CMakeFiles/core.dir/Note.cpp.o	7944f4231561be18
+0	67	1694769152475197549	build.ninja	8cb7845cef57709
+2	365	1694769152851188055	LaboratorioProgrammazione_SianiMarco	49707d1a5930ad16

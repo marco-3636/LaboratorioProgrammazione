@@ -47,7 +47,7 @@ cmake_ninja_workdir = /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMar
 #############################################
 # Order-only phony target for LaboratorioProgrammazione_SianiMarco
 
-build cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco: phony || cmake_object_order_depends_target_core
+build cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco: phony || CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
 
 build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/main.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
   DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o.d
@@ -91,24 +91,6 @@ build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o: CXX_C
   OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
   OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
 
-build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test/NoteTest.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Test/NoteTest.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
-  DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test/NoteTest.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
-  OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test
-
-build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test/NotebookTest.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Test/NotebookTest.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
-  DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test/NotebookTest.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
-  OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test
-
-build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test/AllTest.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Test/AllTest.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
-  DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test/AllTest.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
-  OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LaboratorioProgrammazione_SianiMarco
@@ -117,106 +99,20 @@ build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test/AllTest.cpp.o: CX
 #############################################
 # Link the executable LaboratorioProgrammazione_SianiMarco
 
-build LaboratorioProgrammazione_SianiMarco: CXX_EXECUTABLE_LINKER__LaboratorioProgrammazione_SianiMarco_Debug CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Note.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Notebook.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/SetCollezioni.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test/NoteTest.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test/NotebookTest.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Test/AllTest.cpp.o | libcore.a || libcore.a
+build LaboratorioProgrammazione_SianiMarco: CXX_EXECUTABLE_LINKER__LaboratorioProgrammazione_SianiMarco_Debug CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Note.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Notebook.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/SetCollezioni.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o
   FLAGS = -g
-  LINK_LIBRARIES = libcore.a
   OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = LaboratorioProgrammazione_SianiMarco
   TARGET_PDB = LaboratorioProgrammazione_SianiMarco.dbg
 
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target core
-
-
-#############################################
-# Order-only phony target for core
-
-build cmake_object_order_depends_target_core: phony || CMakeFiles/core.dir
-
-build CMakeFiles/core.dir/main.cpp.o: CXX_COMPILER__core_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/main.cpp || cmake_object_order_depends_target_core
-  DEP_FILE = CMakeFiles/core.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/core.dir
-  OBJECT_FILE_DIR = CMakeFiles/core.dir
-
-build CMakeFiles/core.dir/Note.cpp.o: CXX_COMPILER__core_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Note.cpp || cmake_object_order_depends_target_core
-  DEP_FILE = CMakeFiles/core.dir/Note.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/core.dir
-  OBJECT_FILE_DIR = CMakeFiles/core.dir
-
-build CMakeFiles/core.dir/Notebook.cpp.o: CXX_COMPILER__core_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Notebook.cpp || cmake_object_order_depends_target_core
-  DEP_FILE = CMakeFiles/core.dir/Notebook.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/core.dir
-  OBJECT_FILE_DIR = CMakeFiles/core.dir
-
-build CMakeFiles/core.dir/Observer.cpp.o: CXX_COMPILER__core_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Observer.cpp || cmake_object_order_depends_target_core
-  DEP_FILE = CMakeFiles/core.dir/Observer.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/core.dir
-  OBJECT_FILE_DIR = CMakeFiles/core.dir
-
-build CMakeFiles/core.dir/Subject.cpp.o: CXX_COMPILER__core_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Subject.cpp || cmake_object_order_depends_target_core
-  DEP_FILE = CMakeFiles/core.dir/Subject.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/core.dir
-  OBJECT_FILE_DIR = CMakeFiles/core.dir
-
-build CMakeFiles/core.dir/SetCollezioni.cpp.o: CXX_COMPILER__core_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/SetCollezioni.cpp || cmake_object_order_depends_target_core
-  DEP_FILE = CMakeFiles/core.dir/SetCollezioni.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/core.dir
-  OBJECT_FILE_DIR = CMakeFiles/core.dir
-
-build CMakeFiles/core.dir/Displayer.cpp.o: CXX_COMPILER__core_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Displayer.cpp || cmake_object_order_depends_target_core
-  DEP_FILE = CMakeFiles/core.dir/Displayer.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/core.dir
-  OBJECT_FILE_DIR = CMakeFiles/core.dir
-
-build CMakeFiles/core.dir/Test/NoteTest.cpp.o: CXX_COMPILER__core_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Test/NoteTest.cpp || cmake_object_order_depends_target_core
-  DEP_FILE = CMakeFiles/core.dir/Test/NoteTest.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/core.dir
-  OBJECT_FILE_DIR = CMakeFiles/core.dir/Test
-
-build CMakeFiles/core.dir/Test/NotebookTest.cpp.o: CXX_COMPILER__core_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Test/NotebookTest.cpp || cmake_object_order_depends_target_core
-  DEP_FILE = CMakeFiles/core.dir/Test/NotebookTest.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/core.dir
-  OBJECT_FILE_DIR = CMakeFiles/core.dir/Test
-
-build CMakeFiles/core.dir/Test/AllTest.cpp.o: CXX_COMPILER__core_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Test/AllTest.cpp || cmake_object_order_depends_target_core
-  DEP_FILE = CMakeFiles/core.dir/Test/AllTest.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/core.dir
-  OBJECT_FILE_DIR = CMakeFiles/core.dir/Test
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target core
-
-
-#############################################
-# Link the static library libcore.a
-
-build libcore.a: CXX_STATIC_LIBRARY_LINKER__core_Debug CMakeFiles/core.dir/main.cpp.o CMakeFiles/core.dir/Note.cpp.o CMakeFiles/core.dir/Notebook.cpp.o CMakeFiles/core.dir/Observer.cpp.o CMakeFiles/core.dir/Subject.cpp.o CMakeFiles/core.dir/SetCollezioni.cpp.o CMakeFiles/core.dir/Displayer.cpp.o CMakeFiles/core.dir/Test/NoteTest.cpp.o CMakeFiles/core.dir/Test/NotebookTest.cpp.o CMakeFiles/core.dir/Test/AllTest.cpp.o
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = CMakeFiles/core.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = libcore.a
-  TARGET_PDB = core.a.dbg
-
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug && /snap/clion/249/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -227,7 +123,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug && /snap/clion/249/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco -B/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug && /snap/clion/250/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco -B/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -237,8 +133,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build core: phony libcore.a
-
 # =============================================================================
 # Folder targets.
 
@@ -247,7 +141,7 @@ build core: phony libcore.a
 #############################################
 # Folder: /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug
 
-build all: phony LaboratorioProgrammazione_SianiMarco libcore.a
+build all: phony LaboratorioProgrammazione_SianiMarco
 
 # =============================================================================
 # Built-in targets
@@ -256,14 +150,14 @@ build all: phony LaboratorioProgrammazione_SianiMarco libcore.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/CMakeLists.txt /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/CMakeLists.txt /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/CMakeLists.txt /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/CMakeLists.txt /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################
