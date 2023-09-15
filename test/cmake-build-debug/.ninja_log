@@ -1,0 +1,16 @@
+# ninja log v5
+3	810	1694770404903351196	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Note.o	141398278af4a811
+1	5420	1694770145545014982	CMakeFiles/test.dir/RunAllTest.o	94eccaad5336cc06
+11248	11518	1694770227519244005	lib/libgtest.a	c445efe7d838d299
+0	245	1694770630022323148	build.ninja	1cd5009bfb35122c
+1	4607	1694770220671392707	CMakeFiles/test.dir/NotebookTest.o	e08bc1d860c830fb
+6	11248	1694770227303248698	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	74844d7e8707ec9d
+3	1431	1694770405531337291	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Notebook.o	fb40961ab2f55f97
+2	1531	1694770405635334988	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/SetCollezioni.o	45e9905184f28590
+2	4206	1694770220271401389	CMakeFiles/test.dir/NoteTest.o	c25336bff4a04670
+4210	6792	1694770222859345210	googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	dad41c8f4a498ae0
+11520	11547	1694770227611242007	lib/libgtest_main.a	b66a667bada86899
+0	233	1694770630022323148	build.ninja	1cd5009bfb35122c
+4	55	1694770630110321168	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Subject.o	be282c595aa199e8
+9	86	1694770630142320448	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Observer.o	c4f57c9f4600306c
+86	755	1694770630810305417	test	ccf64737b0182b05

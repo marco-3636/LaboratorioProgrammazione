@@ -7,9 +7,9 @@
 
 
 TEST(Collezione, ConstructorsTest) {
-Collezione colTest1("Titolo di prova");
+Notebook colTest1("Titolo di prova");
 std::string TitoloProva = "Titolo Prova";
-Collezione colTest2(TitoloProva);
+Notebook colTest2(TitoloProva);
 //test per primo costruttore
 EXPECT_EQ("Titolo di prova", colTest1.getTitolo());
 EXPECT_EQ(0, colTest1.getTotalNotes());
@@ -21,9 +21,9 @@ EXPECT_EQ(0, colTest2.getTotalLockedNotes());
 }
 
 TEST(Collezione, ClassFunctionsTest){
-Notes notaTest = Notes("Titolo nota 1", "Testo nota 1", false);
-auto* ColTest = new Collezione("Titolo di prova");
-auto* e = new Executive(ColTest);
+Note notaTest = Note("Titolo nota 1", "Testo nota 1", false);
+auto* ColTest = new Notebook("Titolo di prova");
+auto* e = new SetCollezioni(ColTest);
 e->AddNote(notaTest);
 EXPECT_EQ(1, ColTest->CollectionSize());
 ASSERT_TRUE(nullptr != ColTest->getNote(0));
