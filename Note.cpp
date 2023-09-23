@@ -20,6 +20,7 @@ const std::string &Note::getText() const {
     return Text;
 }
 void Note::setText(const std::string &text) {
+    //TODO controllare se la nota è bloccata prima di inserire il testo
     Text = text;
 }
 

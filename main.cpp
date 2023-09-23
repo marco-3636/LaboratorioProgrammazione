@@ -128,6 +128,7 @@ notebook.push_back(importante);
 
                 auto result = findTitle(notebook, collezione, notebook.size());
                 if(result.found){
+
                     controllore->setCol(notebook[result.count]);
                     controllore->AddNote(*note);
                     SetNoteImportance(*note, *importante, *controllore);

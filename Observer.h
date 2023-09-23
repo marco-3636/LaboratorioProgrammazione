@@ -6,7 +6,7 @@
 #define LABORATORIOPROGRAMMAZIONE_SIANIMARCO_OBSERVER_H
 class Observer {
 public:
-    virtual ~Observer();
+    virtual ~Observer() = default; //TODO cancellare file.cpp
     virtual void update() = 0;
 };
 #endif //LABORATORIOPROGRAMMAZIONE_SIANIMARCO_OBSERVER_H

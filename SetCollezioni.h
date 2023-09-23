@@ -34,13 +34,14 @@ public:
     void setColLockNotesCount(int colLockNotesCount);*/
 
     //metodi inerenti alla classe
+    //TODO la classe dovrà occuparsi di gestire le collezioni, aggiungere attributo al metodo (non dal main)
     void ViewCol () const;
     void AddNote(const Note &NewNote);
     void RemoveNote(int i);
     void ViewNote(int i) const;
     bool IsNoteLocked(int i) const;
     bool ModifyNote(int i, int choice,const std::string& t);
-
+    //TODO cerca note per titolo su tutte le collezioni
     //metodi subject
     void notify() override;
     void addObserver(Observer *o) override;

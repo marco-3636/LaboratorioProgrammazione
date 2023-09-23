@@ -19,7 +19,7 @@ public:
         pExecutive->addObserver(this);
     }
     ~Displayer() override;
-
+    //TODO mettere i metodi get privati e/o protected
     //getter
     int getTotalLockNotes() const;
     int getTotalNotes() const;

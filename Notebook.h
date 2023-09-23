@@ -12,7 +12,7 @@ class Notebook{
 private:
     std::string Titolo;
     std::vector<Note> Collection;
-    int TotalNotes;
+    int TotalNotes; //TODO rimuovere totalnotes ed utilizzare il metodo size() della classe vector
     int TotalLockedNotes;
 
 
@@ -29,7 +29,7 @@ public:
     void setCollection(const std::vector<Note> &collection);
 
     int getTotalNotes() const;
-    void setTotalNotes(int totalNotes);
+    void setTotalNotes(int totalNotes); //TODO rimuovere
 
     int getTotalLockedNotes() const;
     void setTotalLockedNotes(int totalLockedNotes);

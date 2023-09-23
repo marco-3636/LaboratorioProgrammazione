@@ -40,7 +40,7 @@ void SetCollezioni::ViewCol() const {
         std::cout << "         " << i << ") Title: " << note->getTitle() << note->PrintLock() << std::endl;
     }
 }
-
+//TODO delaegare il lavoro ad un metodo della classe collezione addNote, removeNote, ecc
 void SetCollezioni::AddNote(const Note &NewNote) {
     std::vector<Note> vec = Col->getCollection();
     vec.push_back(NewNote);
