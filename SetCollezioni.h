@@ -14,7 +14,7 @@ private:
     Notebook* Col;
     int TotNotesCount, TotLockNotesCount, ColNotesCount, ColLockNotesCount;
     std::list<Observer*> observers;
-
+    int ricercaCollezione(std::vector<Notebook*> notebook,const std::string& t) const;
 public:
     //costruttore
     explicit SetCollezioni(Notebook* c): Col(c), TotNotesCount(0), TotLockNotesCount(0), ColLockNotesCount(0), ColNotesCount(0){}

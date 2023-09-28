@@ -126,3 +126,13 @@ void SetCollezioni::addObserver(Observer *o) {
 void SetCollezioni::removeObserver(Observer *o) {
     observers.remove(o);
 }
+
+int SetCollezioni::ricercaCollezione(std::vector<Notebook*> notebook ,const std::string &t) const {
+
+    for(int i = 0; i<notebook.size(); i++){
+        if(notebook[i]->getTitolo() == t){
+            return i;
+        }
+    }
+    return -1;
+}
