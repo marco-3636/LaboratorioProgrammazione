@@ -9,9 +9,7 @@ set(SOURCE_FILES main.cpp
         Notebook.h
         Notebook.cpp
         Observer.h
-        Observer.cpp
         Subject.h
-        Subject.cpp
         SetCollezioni.h
         SetCollezioni.cpp
         Displayer.h
@@ -24,9 +22,7 @@ add_executable(LaboratorioProgrammazione_SianiMarco main.cpp
         Notebook.h
         Notebook.cpp
         Observer.h
-        Observer.cpp
         Subject.h
-        Subject.cpp
         SetCollezioni.h
         SetCollezioni.cpp
         Displayer.h

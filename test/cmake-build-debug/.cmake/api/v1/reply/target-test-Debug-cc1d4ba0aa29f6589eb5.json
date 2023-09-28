@@ -73,9 +73,7 @@
 				2,
 				6,
 				7,
-				8,
-				9,
-				11
+				8
 			]
 		}
 	],
@@ -139,9 +137,7 @@
 				2,
 				6,
 				7,
-				8,
-				9,
-				11
+				8
 			]
 		},
 		{
@@ -151,8 +147,8 @@
 				3,
 				4,
 				5,
-				10,
-				12
+				9,
+				10
 			]
 		}
 	],
@@ -211,20 +207,8 @@
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Subject.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
 			"path" : "/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Subject.h",
 			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Observer.cpp",
-			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,

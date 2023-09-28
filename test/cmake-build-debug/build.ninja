@@ -91,20 +91,6 @@ build CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_Siani
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco
 
-build CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Subject.o: CXX_COMPILER__test_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Subject.cpp || cmake_object_order_depends_target_test
-  DEP_FILE = CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Subject.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/include -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest
-  OBJECT_DIR = CMakeFiles/test.dir
-  OBJECT_FILE_DIR = CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco
-
-build CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Observer.o: CXX_COMPILER__test_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Observer.cpp || cmake_object_order_depends_target_test
-  DEP_FILE = CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Observer.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/include -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest
-  OBJECT_DIR = CMakeFiles/test.dir
-  OBJECT_FILE_DIR = CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target test
@@ -113,7 +99,7 @@ build CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_Siani
 #############################################
 # Link the executable test
 
-build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/RunAllTest.o CMakeFiles/test.dir/NotebookTest.o CMakeFiles/test.dir/NoteTest.o CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/SetCollezioni.o CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Notebook.o CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Note.o CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Subject.o CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Observer.o | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/RunAllTest.o CMakeFiles/test.dir/NotebookTest.o CMakeFiles/test.dir/NoteTest.o CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/SetCollezioni.o CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Notebook.o CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Note.o | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a

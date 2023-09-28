@@ -46,7 +46,7 @@ void SetCollezioni::AddNote(const Note &NewNote) {
     vec.push_back(NewNote);
     Col->setCollection(vec);
     TotNotesCount ++;
-    Col->setTotalNotes(Col->getTotalNotes()+1);
+    //Col->setTotalNotes(Col->getTotalNotes()+1);
     ColNotesCount=Col->getTotalNotes();
     if(NewNote.isLocked()) {
         TotLockNotesCount++;
@@ -59,7 +59,7 @@ void SetCollezioni::AddNote(const Note &NewNote) {
 void SetCollezioni::RemoveNote(int i) {
     std::vector<Note> vec = Col->getCollection();
     TotNotesCount --;
-    Col->setTotalNotes(Col->getTotalNotes()-1);
+    //Col->setTotalNotes(Col->getTotalNotes()-1);
     ColNotesCount=Col->getTotalNotes();
     if(vec[i].isLocked()){
         TotLockNotesCount --;
@@ -135,4 +135,14 @@ int SetCollezioni::ricercaCollezione(std::vector<Notebook*> notebook ,const std:
         }
     }
     return -1;
+}
+
+void SetCollezioni::SearchNoteByTitle(std::vector<Notebook*> notebook, const std::string &t) const {
+    for(int i = 0; i < notebook.size(); i++){
+        for(int j = 0; j < notebook[i]->CollectionSize(); j++){
+            if(notebook[i]->getNote(j)->getTitle() == t){
+                std::cout << "Notebook contenente la nota: " << notebook[i]->getTitolo() << std::endl;
+            }
+        }
+    }
 }

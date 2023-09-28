@@ -126,10 +126,10 @@ notebook.push_back(importante);
                 cin.ignore();
                 getline(cin, collezione);
 
-                auto result = findTitle(notebook, collezione, notebook.size());
-                if(result.found){
+                auto result = controllore->ricercaCollezione(notebook, collezione);
+                if(result != -1){
 
-                    controllore->setCol(notebook[result.count]);
+                    controllore->setCol(notebook[result]);
                     controllore->AddNote(*note);
                     SetNoteImportance(*note, *importante, *controllore);
                 }
@@ -170,10 +170,13 @@ notebook.push_back(importante);
             }
             case 3:{
                 //modifico la nota
-                //TODO la modifica viene effettuata ma non viene visualizzata
                 string titoloCollezione;
-                findTitleCollection result{};
-                result.found = false;
+
+                //findTitleCollection result{};
+                //result.found = false;
+
+
+
                 int modifica;
                 string newTesto = " ";
                 bool modificaEffettuata;
@@ -181,15 +184,16 @@ notebook.push_back(importante);
                     int nota;
                     cout<< "In quale collezione si trova la nota che vuoi modificare? " <<endl;
                     getline(cin, titoloCollezione);
-                    result = findTitle(notebook, titoloCollezione, notebook.size());
-                    if(result.found){
+                    auto result = controllore->ricercaCollezione(notebook, titoloCollezione);
+                    if(result!=-1){
                         cout<< "Nota da modificare:  " <<endl;
-                        controllore->setCol(notebook[result.count]);
+                        controllore->setCol(notebook[result]);
                         controllore->ViewCol();
                         do{
                             cin>> nota;
 
-                        }while(nota < 0 || nota > notebook[result.count]->CollectionSize());
+                        }while(nota < 0 || nota > notebook[result]->CollectionSize());
+                        //TODO controlli da fare nella classe collezione
                         if(controllore->IsNoteLocked(nota)){
                             cout<< "La nota è bloccata, non puoi modificarla. " <<endl;
                         }

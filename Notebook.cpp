@@ -24,11 +24,9 @@ void Notebook::setCollection(const std::vector<Note> &collection) {
 }
 
 int Notebook::getTotalNotes() const {
-    return TotalNotes;
+    return Collection.size();
 }
-void Notebook::setTotalNotes(int totalNotes) {
-    TotalNotes = totalNotes;
-}
+
 
 int Notebook::getTotalLockedNotes() const {
     return TotalLockedNotes;

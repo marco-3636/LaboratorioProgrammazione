@@ -14,7 +14,7 @@ private:
     Notebook* Col;
     int TotNotesCount, TotLockNotesCount, ColNotesCount, ColLockNotesCount;
     std::list<Observer*> observers;
-    int ricercaCollezione(std::vector<Notebook*> notebook,const std::string& t) const;
+
 public:
     //costruttore
     explicit SetCollezioni(Notebook* c): Col(c), TotNotesCount(0), TotLockNotesCount(0), ColLockNotesCount(0), ColNotesCount(0){}
@@ -41,10 +41,14 @@ public:
     void ViewNote(int i) const;
     bool IsNoteLocked(int i) const;
     bool ModifyNote(int i, int choice,const std::string& t);
-    //TODO cerca note per titolo su tutte le collezioni
+    // FATTO TO-DO cerca note per titolo su tutte le collezioni
+    void SearchNoteByTitle(std::vector<Notebook*> notebook,const std::string& t) const; //TODO da usare nel main
+    int ricercaCollezione(std::vector<Notebook*> notebook,const std::string& t) const;
+
     //metodi subject
     void notify() override;
     void addObserver(Observer *o) override;
     void removeObserver(Observer *o) override;
+
 };
 #endif //LABORATORIOPROGRAMMAZIONE_SIANIMARCO_SETCOLLEZIONI_H
