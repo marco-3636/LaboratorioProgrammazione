@@ -29,7 +29,10 @@ public:
     void setCollection(const std::vector<Note> &collection);
 
     int getTotalNotes() const;
-
+    //TODO da implementare
+    void addNote (const Note& n);
+    void removeNote (const Note& n);
+    //void viewNote (const Note& n);
 
     int getTotalLockedNotes() const;
     void setTotalLockedNotes(int totalLockedNotes);

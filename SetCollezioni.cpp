@@ -41,10 +41,11 @@ void SetCollezioni::ViewCol() const {
     }
 }
 //TODO delaegare il lavoro ad un metodo della classe collezione addNote, removeNote, ecc
-void SetCollezioni::AddNote(const Note &NewNote) {
-    std::vector<Note> vec = Col->getCollection();
+void SetCollezioni::AddNote(const Note &NewNote, std::vector<Notebook*> notebook) {
+    /*std::vector<Note> vec = Col->getCollection();
     vec.push_back(NewNote);
-    Col->setCollection(vec);
+    Col->setCollection(vec);*/
+    notebook.push_back(NewNote);
     TotNotesCount ++;
     //Col->setTotalNotes(Col->getTotalNotes()+1);
     ColNotesCount=Col->getTotalNotes();
@@ -86,6 +87,7 @@ bool SetCollezioni::ModifyNote(int i, int choice, const std::string& t) {
     nota.setTitle(Col->getNote(i)->getTitle());
     nota.setText(Col->getNote(i)->getText());
     if (IsNoteLocked(i)){
+        std::cout<<"la nota è bloccata, impossibile modificarla"<<std::endl;
         return false;
     }
     else {
@@ -138,11 +140,28 @@ int SetCollezioni::ricercaCollezione(std::vector<Notebook*> notebook ,const std:
 }
 
 void SetCollezioni::SearchNoteByTitle(std::vector<Notebook*> notebook, const std::string &t) const {
+    bool trovata = false;
     for(int i = 0; i < notebook.size(); i++){
         for(int j = 0; j < notebook[i]->CollectionSize(); j++){
             if(notebook[i]->getNote(j)->getTitle() == t){
                 std::cout << "Notebook contenente la nota: " << notebook[i]->getTitolo() << std::endl;
+                trovata = true;
             }
         }
+    }
+    if(!trovata){
+        std::cout << "Nessuna nota con quel nome trovata" << std::endl;
+    }
+}
+
+void SetNoteImportance (const Note &n, Notebook &c, SetCollezioni &ctrl){
+    int s;
+    ctrl.setCol(&c);
+    std::cout << "\nQuesta nota è importante? (0=yes / 1=no)" << std::endl;
+    do {
+        std::cin >> s;
+    } while (s > 1 || s < 0);
+    if (s == 0){
+        ctrl.AddNote(n);
     }
 }

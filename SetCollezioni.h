@@ -34,15 +34,16 @@ public:
     void setColLockNotesCount(int colLockNotesCount);*/
 
     //metodi inerenti alla classe
-    //TODO la classe dovrà occuparsi di gestire le collezioni, aggiungere attributo al metodo (non dal main)
+    //TO-DO la classe dovrà occuparsi di gestire le collezioni, aggiungere attributo al metodo (non dal main) FATTO,  LE COLLEZIONI LE RICERCO ALL?INTERNO DEL SET NON PIU NEL MAIN
     void ViewCol () const;
-    void AddNote(const Note &NewNote);
+    void AddNote(const Note &NewNote, std::vector<Notebook*> notebook);
+    void SetNoteImportance (const Note &n, Notebook &c, SetCollezioni &ctrl);
     void RemoveNote(int i);
     void ViewNote(int i) const;
     bool IsNoteLocked(int i) const;
     bool ModifyNote(int i, int choice,const std::string& t);
     // FATTO TO-DO cerca note per titolo su tutte le collezioni
-    void SearchNoteByTitle(std::vector<Notebook*> notebook,const std::string& t) const; //TODO da usare nel main
+    void SearchNoteByTitle(std::vector<Notebook*> notebook,const std::string& t) const; //TO-DO da usare nel main FATTO CASE 7
     int ricercaCollezione(std::vector<Notebook*> notebook,const std::string& t) const;
 
     //metodi subject

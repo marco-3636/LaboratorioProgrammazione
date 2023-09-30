@@ -7,7 +7,7 @@
 
 using namespace std;
 
-struct findTitleCollection{
+/*struct findTitleCollection{
     int count;
     bool found;
 };
@@ -27,9 +27,9 @@ findTitleCollection findTitle(vector<Notebook*> notebook, const string &title, i
     }
 
     return result;
-}
+}*/
 
-void creaNota(Note& nota){
+/*void creaNota(Note& nota){
     string title;
     string text;
     bool locked;
@@ -48,9 +48,9 @@ void creaNota(Note& nota){
     else
         nota.setLocked(true);
 
-}
+}*/
 
-void SetNoteImportance (const Note &n, Notebook &c, SetCollezioni &ctrl){
+/*void SetNoteImportance (const Note &n, Notebook &c, SetCollezioni &ctrl){
     int s;
     ctrl.setCol(&c);
     cout << "\nQuesta nota è importante? (0=yes / 1=no)" << endl;
@@ -60,7 +60,7 @@ void SetNoteImportance (const Note &n, Notebook &c, SetCollezioni &ctrl){
     if (s == 0){
         ctrl.AddNote(n);
     }
-}
+}*/
 
 int main() {
 int scelta = 0;
@@ -71,16 +71,17 @@ auto *displayer = new Displayer(controllore);
 vector<Notebook*> notebook;
 notebook.push_back(importante);
     do{
-        std::cout << "\n\n================MENU'================\n\n" << std::endl;
-        std::cout << "#==============AZIONI==============#" << std::endl;
-        std::cout << "#  1 - Crea una nuova nota         #" << std::endl;
-        std::cout << "#  2 - Crea una nuova collezione   #" << std::endl;
-        std::cout << "#  3 - Modifica una nota           #" << std::endl;
-        std::cout << "#  4 - Leggi una nota              #" << std::endl;
-        std::cout << "#  5 - Eliminare una nota          #" << std::endl;
-        std::cout << "#  6 - Eliminare una collezione    #" << std::endl;
-        std::cout << "#  0 - Exit                        #" << std::endl;
-        std::cout << "#==================================#" << std::endl;
+        std::cout << "\n\n====================MENU'=====================\n\n " << std::endl;
+        std::cout << "#======================AZIONI=========================#" << std::endl;
+        std::cout << "#  1 - Crea una nuova nota                            #" << std::endl;
+        std::cout << "#  2 - Crea una nuova collezione                      #" << std::endl;
+        std::cout << "#  3 - Modifica una nota                              #" << std::endl;
+        std::cout << "#  4 - Leggi una nota                                 #" << std::endl;
+        std::cout << "#  5 - Eliminare una nota                             #" << std::endl;
+        std::cout << "#  6 - Eliminare una collezione                       #" << std::endl;
+        std::cout << "#  7 - Cerca a quale collezione appartiene una nota   #" << std::endl;
+        std::cout << "#  0 - Exit                                           #" << std::endl;
+        std::cout << "#=====================================================#" << std::endl;
         displayer->ShowTotal();
         std::cout << "\nCollezioni: " << std::endl;
 
@@ -131,7 +132,7 @@ notebook.push_back(importante);
 
                     controllore->setCol(notebook[result]);
                     controllore->AddNote(*note);
-                    SetNoteImportance(*note, *importante, *controllore);
+                    controllore->SetNoteImportance(*note, *importante, *controllore);
                 }
                 else{
                     cout<< "Collezione non trovata, se ne vuole creare una nuova? (0=si, 1=no) " <<endl;
@@ -144,7 +145,7 @@ notebook.push_back(importante);
                             notebook.push_back(newNotebook);
                             controllore->setCol(newNotebook);
                             controllore->AddNote(*note);
-                            SetNoteImportance(*note, *importante, *controllore);
+                            controllore->SetNoteImportance(*note, *importante, *controllore);
 
                         }
                         else if(creaNuovaCollezione == 1){
@@ -175,12 +176,10 @@ notebook.push_back(importante);
                 //findTitleCollection result{};
                 //result.found = false;
 
-
-
                 int modifica;
                 string newTesto = " ";
                 bool modificaEffettuata;
-                do{
+                //do{
                     int nota;
                     cout<< "In quale collezione si trova la nota che vuoi modificare? " <<endl;
                     getline(cin, titoloCollezione);
@@ -193,11 +192,11 @@ notebook.push_back(importante);
                             cin>> nota;
 
                         }while(nota < 0 || nota > notebook[result]->CollectionSize());
-                        //TODO controlli da fare nella classe collezione
-                        if(controllore->IsNoteLocked(nota)){
+                        //TO-DO controlli da fare nella classe collezione RISOLTO
+                       /* if(controllore->IsNoteLocked(nota)){
                             cout<< "La nota è bloccata, non puoi modificarla. " <<endl;
-                        }
-                        else{
+                        }*/
+                        //else{
                             cout<< "Cosa vuoi modificare? ( 1=titolo, 2=testo) " <<endl;
                             do{
                                 cin>> modifica;
@@ -230,14 +229,14 @@ notebook.push_back(importante);
                                 }
                             }
 
-                        }
+                        //}
 
 
                     }
                     else{
                         cout<< "Collezione non trovata. " <<endl;
                     }
-                }while(!result.found);
+                //}while(!result.found);
 
                 break;
             }
@@ -245,28 +244,28 @@ notebook.push_back(importante);
                 //leggo la nota
 
                 string collezione;
-                findTitleCollection result{};
-                result.found = false;
-                do{
+                //findTitleCollection result{};
+                //result.found = false;
+                //do{
 
                     cout<< "In quale collezione si trova la nota che vuoi leggere? " <<endl;
                     getline(cin, collezione);
-                    result = findTitle(notebook, collezione, notebook.size());
-                    if(result.found && notebook[result.count]->CollectionSize() > 0){
+                    auto result = controllore->ricercaCollezione(notebook, collezione);
+                    if(result!=-1 && notebook[result]->CollectionSize() > 0){
                         cout<< "Nota da leggere:  " <<endl;
-                        controllore->setCol(notebook[result.count]);
+                        controllore->setCol(notebook[result]);
                         controllore->ViewCol();
                         int nota;
                         do{
                             cin>> nota;
-                        }while(nota < 0 || nota > notebook[result.count]->CollectionSize());
+                        }while(nota < 0 || nota > notebook[result]->CollectionSize());
                         controllore->ViewNote (nota);
                     }
                     else{
                         cout<< "Collezione non trovata o vuota. " <<endl;
                     }
 
-                }while(!result.found);
+                //}while(!result.found);
 
 
                 break;
@@ -276,28 +275,28 @@ notebook.push_back(importante);
 
 
                 string collezione;
-                findTitleCollection result{};
-                result.found = false;
-                do{
+                //findTitleCollection result{};
+                //result.found = false;
+                //do{
 
                     cout<< "In quale collezione si trova la nota che vuoi eliminare? " <<endl;
                     getline(cin, collezione);
-                    result = findTitle(notebook, collezione, notebook.size());
-                    if(result.found){
+                    auto result = controllore->ricercaCollezione(notebook, collezione);
+                    if(result!=-1){
                         cout<< "Nota da eliminare:  " <<endl;
-                        controllore->setCol(notebook[result.count]);
+                        controllore->setCol(notebook[result]);
                         controllore->ViewCol();
                         int nota;
                         do{
                             cin>> nota;
-                        }while(nota < 0 || nota > notebook[result.count]->CollectionSize());
+                        }while(nota < 0 || nota > notebook[result]->CollectionSize());
                         controllore->RemoveNote (nota);
                     }
                     else{
                         cout<< "Collezione non trovata. " <<endl;
                     }
 
-                }while(!result.found);
+                //}while(!result.found);
 
                 break;
             }
@@ -306,18 +305,18 @@ notebook.push_back(importante);
 
 
                 string collezione;
-                findTitleCollection result{};
-                result.found = false;
-                do{
+                //findTitleCollection result{};
+                //result.found = false;
+                //do{
 
                     cout<<"Quale collezione vuoi eliminare? " <<endl;
                     cin.ignore();
                     getline(cin, collezione);
-                    result = findTitle(notebook, collezione, notebook.size());
-                    if(result.found){
-                        notebook[result.count]->~Notebook();
-                        notebook.erase(notebook.begin()+result.count);
-                        for(int i = result.count + 1; i < notebook.size(); i++){
+                    auto result = controllore->ricercaCollezione(notebook, collezione);
+                    if(result!=-1){
+                        notebook[result]->~Notebook();
+                        notebook.erase(notebook.begin()+result);
+                        for(int i = result + 1; i < notebook.size(); i++){
                             notebook[i-1] = notebook[i];
                         }
 
@@ -326,7 +325,17 @@ notebook.push_back(importante);
                         cout<< "Collezione non trovata. " <<endl;
                     }
 
-                }while(!result.found);
+                //}while(!result.found);
+                break;
+            }
+            case 7:{
+                //cerco la nota
+
+                string titolo;
+                cout<< "Inserisci il titolo della nota che vuoi cercare: " <<endl;
+                cin.ignore();
+                getline(cin, titolo);
+                controllore->SearchNoteByTitle(notebook, titolo);
                 break;
             }
             case 0:{
