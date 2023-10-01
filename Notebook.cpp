@@ -4,8 +4,8 @@
 #include "Notebook.h"
 
 //CTor & DTor
-Notebook::Notebook() : Titolo("Titolo Stock"), TotalLockedNotes(0), TotalNotes(0) {}
-Notebook::Notebook(const std::string &Tit)  : Titolo(Tit), TotalLockedNotes(0), TotalNotes(0) {}
+Notebook::Notebook() : Titolo("Titolo Stock"), TotalLockedNotes(0) /*, TotalNotes(0)*/ {}
+Notebook::Notebook(const std::string &Tit)  : Titolo(Tit), TotalLockedNotes(0) /*, TotalNotes(0)*/ {}
 
 Notebook::~Notebook() {
     std::cout << "\nLa collezione " << this->Titolo << " e' stata eliminata";
@@ -42,4 +42,25 @@ int Notebook::CollectionSize() const {
 
 Note * Notebook::getNote(int i){
     return &(Collection[i]);
+}
+
+void Notebook::addNote(const Note &n) {
+    Collection.push_back(n);
+}
+
+void Notebook::removeNote(int i) {
+
+            Collection.erase(Collection.begin()+i);
+
+}
+
+void Notebook::viewNote(int i) {
+    std::cout << "Title: " << Collection[i].getTitle() << std::endl;
+    std::cout << "Text: " << Collection[i].getText() << std::endl;
+    std::cout << "Locked: " << Collection[i].isLocked() << std::endl;
+}
+
+bool Notebook::noteIsLocked(int i) {
+    return Collection[i].isLocked();
+
 }

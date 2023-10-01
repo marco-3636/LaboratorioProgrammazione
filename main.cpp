@@ -131,7 +131,7 @@ notebook.push_back(importante);
                 if(result != -1){
 
                     controllore->setCol(notebook[result]);
-                    controllore->AddNote(*note);
+                    controllore->AddNote(*note, *notebook[result]);
                     controllore->SetNoteImportance(*note, *importante, *controllore);
                 }
                 else{
@@ -144,7 +144,7 @@ notebook.push_back(importante);
                             auto *newNotebook = new Notebook(collezione);
                             notebook.push_back(newNotebook);
                             controllore->setCol(newNotebook);
-                            controllore->AddNote(*note);
+                            controllore->AddNote(*note, *newNotebook);
                             controllore->SetNoteImportance(*note, *importante, *controllore);
 
                         }
@@ -259,7 +259,7 @@ notebook.push_back(importante);
                         do{
                             cin>> nota;
                         }while(nota < 0 || nota > notebook[result]->CollectionSize());
-                        controllore->ViewNote (nota);
+                        controllore->ViewNote (nota, *notebook[result]);
                     }
                     else{
                         cout<< "Collezione non trovata o vuota. " <<endl;
@@ -290,7 +290,7 @@ notebook.push_back(importante);
                         do{
                             cin>> nota;
                         }while(nota < 0 || nota > notebook[result]->CollectionSize());
-                        controllore->RemoveNote (nota);
+                        controllore->RemoveNote(nota, *notebook[result]);
                     }
                     else{
                         cout<< "Collezione non trovata. " <<endl;

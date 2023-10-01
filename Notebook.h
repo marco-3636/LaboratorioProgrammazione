@@ -31,8 +31,9 @@ public:
     int getTotalNotes() const;
     //TODO da implementare
     void addNote (const Note& n);
-    void removeNote (const Note& n);
-    //void viewNote (const Note& n);
+    void removeNote (int i);
+    void viewNote (int i);
+    bool noteIsLocked (int i);
 
     int getTotalLockedNotes() const;
     void setTotalLockedNotes(int totalLockedNotes);

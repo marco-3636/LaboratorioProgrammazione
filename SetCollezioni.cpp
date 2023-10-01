@@ -40,12 +40,12 @@ void SetCollezioni::ViewCol() const {
         std::cout << "         " << i << ") Title: " << note->getTitle() << note->PrintLock() << std::endl;
     }
 }
-//TODO delaegare il lavoro ad un metodo della classe collezione addNote, removeNote, ecc
-void SetCollezioni::AddNote(const Note &NewNote, std::vector<Notebook*> notebook) {
+//TODO delaegare il lavoro ad un metodo della classe collezione addNote (fatto), removeNote(fatto), viewNote(fatto), isNoteLocked(fatto) ecc
+void SetCollezioni::AddNote(const Note &NewNote, Notebook &n) {
     /*std::vector<Note> vec = Col->getCollection();
     vec.push_back(NewNote);
     Col->setCollection(vec);*/
-    notebook.push_back(NewNote);
+    n.addNote(NewNote);
     TotNotesCount ++;
     //Col->setTotalNotes(Col->getTotalNotes()+1);
     ColNotesCount=Col->getTotalNotes();
@@ -57,29 +57,33 @@ void SetCollezioni::AddNote(const Note &NewNote, std::vector<Notebook*> notebook
     notify();
 }
 
-void SetCollezioni::RemoveNote(int i) {
-    std::vector<Note> vec = Col->getCollection();
+void SetCollezioni::RemoveNote(int i, Notebook &n) {
+    //std::vector<Note> vec = Col->getCollection();
+    bool bloccata = n.getNote(i)->isLocked();
+    n.removeNote(i);
     TotNotesCount --;
     //Col->setTotalNotes(Col->getTotalNotes()-1);
     ColNotesCount=Col->getTotalNotes();
-    if(vec[i].isLocked()){
+    if(bloccata){
         TotLockNotesCount --;
         Col->setTotalLockedNotes(Col->getTotalLockedNotes()-1);
         ColLockNotesCount=Col->getTotalLockedNotes();
     }
-    vec.erase(vec.begin()+i);
-    Col->setCollection(vec);
+    //vec.erase(vec.begin()+i);
+    //Col->setCollection(vec);
     notify();
 }
 
-void SetCollezioni::ViewNote(int i) const {
-    Note *nota = Col->getNote(i);
-    std::cout << "Titolo: " << nota->getTitle() << "\nText: " << nota->getText() << std::endl;
+void SetCollezioni::ViewNote(int i, Notebook &n) const {
+
+    n.viewNote(i);
 }
 
-bool SetCollezioni::IsNoteLocked(int i) const {
-    Note *nota = Col->getNote(i);
-    return nota->isLocked();
+bool SetCollezioni::IsNoteLocked(int i, Notebook &n) const {
+    //Note *nota = Col->getNote(i);
+    bool locked = n.noteIsLocked(i);
+    //return nota->isLocked();
+    return locked;
 }
 
 bool SetCollezioni::ModifyNote(int i, int choice, const std::string& t) {
@@ -162,6 +166,6 @@ void SetNoteImportance (const Note &n, Notebook &c, SetCollezioni &ctrl){
         std::cin >> s;
     } while (s > 1 || s < 0);
     if (s == 0){
-        ctrl.AddNote(n);
+        ctrl.AddNote(n, c);
     }
 }

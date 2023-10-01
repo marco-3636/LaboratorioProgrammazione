@@ -36,11 +36,11 @@ public:
     //metodi inerenti alla classe
     //TO-DO la classe dovrà occuparsi di gestire le collezioni, aggiungere attributo al metodo (non dal main) FATTO,  LE COLLEZIONI LE RICERCO ALL?INTERNO DEL SET NON PIU NEL MAIN
     void ViewCol () const;
-    void AddNote(const Note &NewNote, std::vector<Notebook*> notebook);
+    void AddNote(const Note &NewNote,Notebook &notebook);
     void SetNoteImportance (const Note &n, Notebook &c, SetCollezioni &ctrl);
-    void RemoveNote(int i);
-    void ViewNote(int i) const;
-    bool IsNoteLocked(int i) const;
+    void RemoveNote(int i, Notebook &notebook);
+    void ViewNote(int i, Notebook &notebook) const;
+    bool IsNoteLocked(int i, Notebook &notebook) const;
     bool ModifyNote(int i, int choice,const std::string& t);
     // FATTO TO-DO cerca note per titolo su tutte le collezioni
     void SearchNoteByTitle(std::vector<Notebook*> notebook,const std::string& t) const; //TO-DO da usare nel main FATTO CASE 7
