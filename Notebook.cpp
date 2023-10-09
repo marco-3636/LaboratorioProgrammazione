@@ -60,7 +60,7 @@ void Notebook::viewNote(int i) {
     std::cout << "Locked: " << Collection[i].isLocked() << std::endl;
 }
 
-bool Notebook::noteIsLocked(int i) {
+bool Notebook::noteIsLocked(int i) const {
     return Collection[i].isLocked();
 
 }

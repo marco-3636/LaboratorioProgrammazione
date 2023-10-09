@@ -40,7 +40,7 @@ void SetCollezioni::ViewCol() const {
         std::cout << "         " << i << ") Title: " << note->getTitle() << note->PrintLock() << std::endl;
     }
 }
-//TODO delaegare il lavoro ad un metodo della classe collezione addNote (fatto), removeNote(fatto), viewNote(fatto), isNoteLocked(fatto) ecc
+//TO-DO FATTO delaegare il lavoro ad un metodo della classe collezione addNote (fatto), removeNote(fatto), viewNote(fatto), isNoteLocked(fatto) modifyNote(fatto)
 void SetCollezioni::AddNote(const Note &NewNote, Notebook &n) {
     /*std::vector<Note> vec = Col->getCollection();
     vec.push_back(NewNote);
@@ -79,18 +79,18 @@ void SetCollezioni::ViewNote(int i, Notebook &n) const {
     n.viewNote(i);
 }
 
-bool SetCollezioni::IsNoteLocked(int i, Notebook &n) const {
+bool SetCollezioni::IsNoteLocked(int i, const Notebook &n) const {
     //Note *nota = Col->getNote(i);
     bool locked = n.noteIsLocked(i);
     //return nota->isLocked();
     return locked;
 }
 
-bool SetCollezioni::ModifyNote(int i, int choice, const std::string& t) {
+bool SetCollezioni::ModifyNote(int i, int choice, const std::string& t, const Notebook &n){
     Note nota(" ", " ", false);
     nota.setTitle(Col->getNote(i)->getTitle());
     nota.setText(Col->getNote(i)->getText());
-    if (IsNoteLocked(i)){
+    if (IsNoteLocked(i, n)){
         std::cout<<"la nota è bloccata, impossibile modificarla"<<std::endl;
         return false;
     }
@@ -158,7 +158,7 @@ void SetCollezioni::SearchNoteByTitle(std::vector<Notebook*> notebook, const std
     }
 }
 
-void SetNoteImportance (const Note &n, Notebook &c, SetCollezioni &ctrl){
+void SetCollezioni::SetNoteImportance (const Note &n, Notebook &c, SetCollezioni &ctrl){
     int s;
     ctrl.setCol(&c);
     std::cout << "\nQuesta nota è importante? (0=yes / 1=no)" << std::endl;

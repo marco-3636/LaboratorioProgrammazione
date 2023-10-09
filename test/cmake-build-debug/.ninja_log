@@ -1,15 +1,22 @@
 # ninja log v5
 1637	2012	1695911765766614805	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Note.o	141398278af4a811
+7835	7993	1696853643794597167	lib/libgmock.a	3d80a6348163b9a0
 1	5420	1694770145545014982	CMakeFiles/test.dir/RunAllTest.o	94eccaad5336cc06
 11248	11518	1694770227519244005	lib/libgtest.a	c445efe7d838d299
-1	613	1696084872736623226	build.ninja	1cd5009bfb35122c
-1	3109	1695911766858592927	CMakeFiles/test.dir/NotebookTest.o	e08bc1d860c830fb
+1234	2373	1696854353874877438	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/main.o	61d41768afaae736
+1	821	1696854884310239867	build.ninja	1cd5009bfb35122c
+2	2276	1696854421455076926	CMakeFiles/test.dir/NotebookTest.o	e08bc1d860c830fb
 4	55	1694770630110321168	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Subject.o	be282c595aa199e8
 6	11248	1694770227303248698	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	74844d7e8707ec9d
-1	786	1695911850669010596	test	86685483e34001a1
-13	1637	1695911765386622427	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Notebook.o	fb40961ab2f55f97
-4	1656	1695911765402622106	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/SetCollezioni.o	45e9905184f28590
+2	7834	1696853643678630592	googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	21f5e9c1cf24d004
+3	487	1696854582134509012	test	86685483e34001a1
+7993	8021	1696853643862577573	lib/libgmock_main.a	273233e3d0d9e9a5
+6	1229	1696854352733473456	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Notebook.o	fb40961ab2f55f97
+6	1266	1696854352753498333	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/SetCollezioni.o	45e9905184f28590
 2	4206	1694770220271401389	CMakeFiles/test.dir/NoteTest.o	c25336bff4a04670
 4210	6792	1694770222859345210	googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	dad41c8f4a498ae0
+6	6151	1696853641991325420	googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	21aba7587340e8dc
 11520	11547	1694770227611242007	lib/libgtest_main.a	b66a667bada86899
 9	86	1694770630142320448	CMakeFiles/test.dir/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Observer.o	c4f57c9f4600306c
+1	9018	1696854994733261606	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	74844d7e8707ec9d
+9023	9261	1696854994953258930	lib/libgtest.a	c445efe7d838d299

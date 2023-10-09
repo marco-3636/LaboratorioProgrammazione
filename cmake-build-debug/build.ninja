@@ -67,18 +67,6 @@ build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Notebook.cpp.o: CXX_CO
   OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
   OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
 
-build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Observer.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
-  DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
-  OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
-
-build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Subject.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
-  DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
-  OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
-
 build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/SetCollezioni.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/SetCollezioni.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
   DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/SetCollezioni.cpp.o.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
@@ -91,24 +79,6 @@ build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o: CXX_C
   OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
   OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
 
-build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/RunAllTest.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/RunAllTest.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
-  DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/RunAllTest.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
-  OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test
-
-build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NotebookTest.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/NotebookTest.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
-  DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NotebookTest.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
-  OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test
-
-build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NoteTest.cpp.o: CXX_COMPILER__LaboratorioProgrammazione_SianiMarco_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/NoteTest.cpp || cmake_object_order_depends_target_LaboratorioProgrammazione_SianiMarco
-  DEP_FILE = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NoteTest.cpp.o.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
-  OBJECT_FILE_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LaboratorioProgrammazione_SianiMarco
@@ -117,7 +87,7 @@ build CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NoteTest.cpp.o: C
 #############################################
 # Link the executable LaboratorioProgrammazione_SianiMarco
 
-build LaboratorioProgrammazione_SianiMarco: CXX_EXECUTABLE_LINKER__LaboratorioProgrammazione_SianiMarco_Debug CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Note.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Notebook.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Observer.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Subject.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/SetCollezioni.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/RunAllTest.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NotebookTest.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/test/NoteTest.cpp.o
+build LaboratorioProgrammazione_SianiMarco: CXX_EXECUTABLE_LINKER__LaboratorioProgrammazione_SianiMarco_Debug CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/main.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Note.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Notebook.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/SetCollezioni.cpp.o CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir/Displayer.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/LaboratorioProgrammazione_SianiMarco.dir
   POST_BUILD = :
@@ -148,8 +118,544 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+
+build test/CMakeFiles/test.dir/RunAllTest.cpp.o: CXX_COMPILER__test_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/RunAllTest.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = test/CMakeFiles/test.dir/RunAllTest.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/include -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest
+  OBJECT_DIR = test/CMakeFiles/test.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/test.dir
+
+build test/CMakeFiles/test.dir/NotebookTest.cpp.o: CXX_COMPILER__test_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/NotebookTest.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = test/CMakeFiles/test.dir/NotebookTest.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/include -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest
+  OBJECT_DIR = test/CMakeFiles/test.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/test.dir
+
+build test/CMakeFiles/test.dir/NoteTest.cpp.o: CXX_COMPILER__test_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/NoteTest.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = test/CMakeFiles/test.dir/NoteTest.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/include -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest
+  OBJECT_DIR = test/CMakeFiles/test.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/test.dir
+
+build test/CMakeFiles/test.dir/__/SetCollezioni.cpp.o: CXX_COMPILER__test_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/SetCollezioni.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = test/CMakeFiles/test.dir/__/SetCollezioni.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/include -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest
+  OBJECT_DIR = test/CMakeFiles/test.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/test.dir/__
+
+build test/CMakeFiles/test.dir/__/Notebook.cpp.o: CXX_COMPILER__test_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Notebook.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = test/CMakeFiles/test.dir/__/Notebook.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/include -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest
+  OBJECT_DIR = test/CMakeFiles/test.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/test.dir/__
+
+build test/CMakeFiles/test.dir/__/Note.cpp.o: CXX_COMPILER__test_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/Note.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = test/CMakeFiles/test.dir/__/Note.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/include -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest
+  OBJECT_DIR = test/CMakeFiles/test.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/test.dir/__
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test/test
+
+build test/test: CXX_EXECUTABLE_LINKER__test_Debug test/CMakeFiles/test.dir/RunAllTest.cpp.o test/CMakeFiles/test.dir/NotebookTest.cpp.o test/CMakeFiles/test.dir/NoteTest.cpp.o test/CMakeFiles/test.dir/__/SetCollezioni.cpp.o test/CMakeFiles/test.dir/__/Notebook.cpp.o test/CMakeFiles/test.dir/__/Note.cpp.o | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+  FLAGS = -g
+  LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a
+  OBJECT_DIR = test/CMakeFiles/test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/test
+  TARGET_PDB = test.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build test/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build test/edit_cache: phony test/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build test/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test && /snap/clion/250/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco -B/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build test/rebuild_cache: phony test/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build test/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build test/CMakeFiles/install.util: CUSTOM_COMMAND test/all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build test/install: phony test/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build test/CMakeFiles/install/local.util: CUSTOM_COMMAND test/all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build test/install/local: phony test/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build test/CMakeFiles/install/strip.util: CUSTOM_COMMAND test/all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build test/install/strip: phony test/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build test/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build test/googletest/edit_cache: phony test/googletest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build test/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest && /snap/clion/250/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco -B/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build test/googletest/rebuild_cache: phony test/googletest/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build test/googletest/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build test/googletest/CMakeFiles/install.util: CUSTOM_COMMAND test/googletest/all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build test/googletest/install: phony test/googletest/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build test/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND test/googletest/all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build test/googletest/install/local: phony test/googletest/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build test/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND test/googletest/all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build test/googletest/install/strip: phony test/googletest/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gmock
+
+
+#############################################
+# Order-only phony target for gmock
+
+build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest
+
+build test/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COMPILER__gmock_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
+  DEP_FILE = test/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.d
+  FLAGS = -g -std=c++14 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock/include -I/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/include -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest
+  OBJECT_DIR = test/googletest/googlemock/CMakeFiles/gmock.dir
+  OBJECT_FILE_DIR = test/googletest/googlemock/CMakeFiles/gmock.dir/src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gmock
+
+
+#############################################
+# Link the static library lib/libgmock.a
+
+build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug test/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o || lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = test/googletest/googlemock/CMakeFiles/gmock.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lib/libgmock.a
+  TARGET_PDB = gmock.a.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gmock_main
+
+
+#############################################
+# Order-only phony target for gmock_main
+
+build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
+
+build test/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: CXX_COMPILER__gmock_main_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
+  DEP_FILE = test/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d
+  FLAGS = -g -std=c++14 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock/include -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/include -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest
+  OBJECT_DIR = test/googletest/googlemock/CMakeFiles/gmock_main.dir
+  OBJECT_FILE_DIR = test/googletest/googlemock/CMakeFiles/gmock_main.dir/src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gmock_main
+
+
+#############################################
+# Link the static library lib/libgmock_main.a
+
+build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug test/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o || lib/libgmock.a lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = test/googletest/googlemock/CMakeFiles/gmock_main.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lib/libgmock_main.a
+  TARGET_PDB = gmock_main.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build test/googletest/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest/googlemock && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build test/googletest/googlemock/edit_cache: phony test/googletest/googlemock/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build test/googletest/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest/googlemock && /snap/clion/250/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco -B/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build test/googletest/googlemock/rebuild_cache: phony test/googletest/googlemock/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build test/googletest/googlemock/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build test/googletest/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND test/googletest/googlemock/all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest/googlemock && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build test/googletest/googlemock/install: phony test/googletest/googlemock/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build test/googletest/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND test/googletest/googlemock/all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest/googlemock && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build test/googletest/googlemock/install/local: phony test/googletest/googlemock/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build test/googletest/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND test/googletest/googlemock/all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest/googlemock && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build test/googletest/googlemock/install/strip: phony test/googletest/googlemock/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gtest
+
+
+#############################################
+# Order-only phony target for gtest
+
+build cmake_object_order_depends_target_gtest: phony || test/googletest/googletest/CMakeFiles/gtest.dir
+
+build test/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
+  DEP_FILE = test/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d
+  FLAGS = -g -std=c++14 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/include -I/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest
+  OBJECT_DIR = test/googletest/googletest/CMakeFiles/gtest.dir
+  OBJECT_FILE_DIR = test/googletest/googletest/CMakeFiles/gtest.dir/src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gtest
+
+
+#############################################
+# Link the static library lib/libgtest.a
+
+build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug test/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = test/googletest/googletest/CMakeFiles/gtest.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lib/libgtest.a
+  TARGET_PDB = gtest.a.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gtest_main
+
+
+#############################################
+# Order-only phony target for gtest_main
+
+build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
+
+build test/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_unscanned_Debug /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
+  DEP_FILE = test/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d
+  FLAGS = -g -std=c++14 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/include -isystem /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest
+  OBJECT_DIR = test/googletest/googletest/CMakeFiles/gtest_main.dir
+  OBJECT_FILE_DIR = test/googletest/googletest/CMakeFiles/gtest_main.dir/src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gtest_main
+
+
+#############################################
+# Link the static library lib/libgtest_main.a
+
+build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug test/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o || lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = test/googletest/googletest/CMakeFiles/gtest_main.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lib/libgtest_main.a
+  TARGET_PDB = gtest_main.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build test/googletest/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest/googletest && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build test/googletest/googletest/edit_cache: phony test/googletest/googletest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build test/googletest/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest/googletest && /snap/clion/250/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco -B/home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build test/googletest/googletest/rebuild_cache: phony test/googletest/googletest/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build test/googletest/googletest/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build test/googletest/googletest/CMakeFiles/install.util: CUSTOM_COMMAND test/googletest/googletest/all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest/googletest && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build test/googletest/googletest/install: phony test/googletest/googletest/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build test/googletest/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND test/googletest/googletest/all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest/googletest && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build test/googletest/googletest/install/local: phony test/googletest/googletest/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build test/googletest/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND test/googletest/googletest/all
+  COMMAND = cd /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest/googletest && /snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build test/googletest/googletest/install/strip: phony test/googletest/googletest/CMakeFiles/install/strip.util
+
 # =============================================================================
 # Target aliases.
+
+build gmock: phony lib/libgmock.a
+
+build gmock_main: phony lib/libgmock_main.a
+
+build gtest: phony lib/libgtest.a
+
+build gtest_main: phony lib/libgtest_main.a
+
+build libgmock.a: phony lib/libgmock.a
+
+build libgmock_main.a: phony lib/libgmock_main.a
+
+build libgtest.a: phony lib/libgtest.a
+
+build libgtest_main.a: phony lib/libgtest_main.a
+
+build test: phony test/test
 
 # =============================================================================
 # Folder targets.
@@ -159,7 +665,35 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug
 
-build all: phony LaboratorioProgrammazione_SianiMarco
+build all: phony LaboratorioProgrammazione_SianiMarco test/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test
+
+build test/all: phony test/test test/googletest/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest
+
+build test/googletest/all: phony test/googletest/googlemock/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest/googlemock
+
+build test/googletest/googlemock/all: phony lib/libgmock.a lib/libgmock_main.a test/googletest/googletest/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/cmake-build-debug/test/googletest/googletest
+
+build test/googletest/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 
 # =============================================================================
 # Built-in targets
@@ -168,14 +702,14 @@ build all: phony LaboratorioProgrammazione_SianiMarco
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/CMakeLists.txt /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/CMakeLists.txt /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/CMakeLists.txt /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/CMakeLists.txt /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock/CMakeLists.txt /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock/cmake/gmock.pc.in /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock/cmake/gmock_main.pc.in /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/CMakeLists.txt /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/cmake/Config.cmake.in /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/cmake/gtest.pc.in /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/cmake/gtest_main.pc.in /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/cmake/internal_utils.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDependentOption.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPython/Support.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPython3.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindThreads.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/GNUInstallDirs.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/CMakeLists.txt /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/CMakeLists.txt /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/CMakeLists.txt /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/CMakeLists.txt /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock/CMakeLists.txt /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock/cmake/gmock.pc.in /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googlemock/cmake/gmock_main.pc.in /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/CMakeLists.txt /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/cmake/Config.cmake.in /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/cmake/gtest.pc.in /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/cmake/gtest_main.pc.in /home/m36/CLionProjects/LaboratorioProgrammazione_SianiMarco/test/googletest/googletest/cmake/internal_utils.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDependentOption.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPython/Support.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPython3.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindThreads.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/GNUInstallDirs.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################

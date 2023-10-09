@@ -29,11 +29,11 @@ public:
     void setCollection(const std::vector<Note> &collection);
 
     int getTotalNotes() const;
-    //TODO da implementare
+    //TO-DO da implementare FATTO
     void addNote (const Note& n);
     void removeNote (int i);
     void viewNote (int i);
-    bool noteIsLocked (int i);
+    bool noteIsLocked (int i) const;
 
     int getTotalLockedNotes() const;
     void setTotalLockedNotes(int totalLockedNotes);

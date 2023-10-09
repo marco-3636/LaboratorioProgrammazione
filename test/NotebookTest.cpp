@@ -24,7 +24,7 @@ TEST(Collezione, ClassFunctionsTest){
 Note notaTest = Note("Titolo nota 1", "Testo nota 1", false);
 auto* ColTest = new Notebook("Titolo di prova");
 auto* e = new SetCollezioni(ColTest);
-e->AddNote(notaTest);
+e->AddNote(notaTest, *ColTest);
 EXPECT_EQ(1, ColTest->CollectionSize());
 ASSERT_TRUE(nullptr != ColTest->getNote(0));
 EXPECT_EQ(1, ColTest->getTotalNotes());

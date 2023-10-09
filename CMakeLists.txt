@@ -27,8 +27,8 @@ add_executable(LaboratorioProgrammazione_SianiMarco main.cpp
         SetCollezioni.cpp
         Displayer.h
         Displayer.cpp
-        test/RunAllTest.cpp
-        test/NotebookTest.cpp
-        test/NoteTest.cpp
+        #test/RunAllTest.cpp
+        #test/NotebookTest.cpp
+        #test/NoteTest.cpp
 )
 
