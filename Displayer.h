@@ -19,17 +19,20 @@ public:
         pExecutive->addObserver(this);
     }
     ~Displayer() override;
-    //TODO mettere i metodi get privati e/o protected
+
+
+    //metodi inerenti alla classe
+    void update() override;
+    void ShowTotal() const;
+    void ShowCol() const;
+
+protected:
+    //TO-DO mettere i metodi get privati e/o protected FATTO
     //getter
     int getTotalLockNotes() const;
     int getTotalNotes() const;
     int getCollectionNotes() const;
     int getCollectionLockNotes() const;
     Subject *getpExecutive() const;
-
-    //metodi inerenti alla classe
-    void update() override;
-    void ShowTotal() const;
-    void ShowCol() const;
 };
 #endif //LABORATORIOPROGRAMMAZIONE_SIANIMARCO_DISPLAYER_H
