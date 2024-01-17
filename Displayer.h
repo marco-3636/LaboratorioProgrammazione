@@ -12,6 +12,13 @@ class Displayer : public Observer{
 private:
     int TotalLockNotes, TotalNotes, CollectionNotes, CollectionLockNotes;
     SetCollezioni* pExecutive;
+    //TO-DO mettere i metodi get privati e/o protected FATTO
+    //getter
+    int getTotalLockNotes() const;
+    int getTotalNotes() const;
+    int getCollectionNotes() const;
+    int getCollectionLockNotes() const;
+    Subject *getpExecutive() const;
 
 public:
     //CTor & DTor
@@ -26,13 +33,7 @@ public:
     void ShowTotal() const;
     void ShowCol() const;
 
-protected:
-    //TO-DO mettere i metodi get privati e/o protected FATTO
-    //getter
-    int getTotalLockNotes() const;
-    int getTotalNotes() const;
-    int getCollectionNotes() const;
-    int getCollectionLockNotes() const;
-    Subject *getpExecutive() const;
+//protected:
+
 };
 #endif //LABORATORIOPROGRAMMAZIONE_SIANIMARCO_DISPLAYER_H
